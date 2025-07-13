@@ -138,7 +138,7 @@ $remembered_email = isset($_COOKIE['remember_user']) ? $_COOKIE['remember_user']
             </form>
 
             <div class="register-link">
-                Don't have an account? <a href="register.php">Create one here</a>
+                Don't have an account? <a href="register-style.php">Create one here</a>
             </div>
         </div>
     </div>
