@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-// Check if user is already logged in
+// Check if user is already logged in part
 if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === true) {
     header('Location: dashboard.php');
     exit();
@@ -133,7 +133,7 @@ $remembered_email = isset($_COOKIE['remember_user']) ? $_COOKIE['remember_user']
 
                 <button type="submit" class="login-btn" id="loginBtn">
                     <div class="spinner"></div>
-                    <span class="btn-text">🚀 Sign In</span>
+                    <span class="btn-text">🚀 Sign In</span> 
                 </button>
             </form>
 
